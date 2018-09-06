@@ -19,5 +19,4 @@ public class AppTest {
     	String actual = App.getSaudacao();
     	assertTrue(actual.startsWith(expected));
 	}
-
 }
