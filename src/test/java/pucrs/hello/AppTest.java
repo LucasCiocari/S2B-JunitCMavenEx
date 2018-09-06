@@ -13,6 +13,11 @@ public class AppTest {
     	assertEquals(expected, actual);
 	}
 
-	
+	@Test
+	public void testGetSaudacaoIniciaComO() {
+		String expected = "O";
+    	String actual = App.getSaudacao();
+    	assertTrue(actual.startsWith(expected));
+	}
 
 }
